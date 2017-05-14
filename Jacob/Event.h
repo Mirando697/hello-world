@@ -13,6 +13,6 @@ class Event
 public:
     Event(string="Jeffrey", string="Rare Pepe", int=100, int=5000);
     ~Event();
-    void show();
-    void choice();
+    void ShowResult();
+    void ChooseAction();
 };

@@ -3,13 +3,13 @@
 
 using namespace std;
 
-void Event::show()
+void Event::ShowResult()
 {
     cout<<endl<<"You encountered "<<monster<<" called "<<name<<endl;
     cout<<"HP: "<<hp<<endl;
 }
 
-void Event::choice()
+void Event::ChooseAction()
 {
     //int choice;
     cout<<"What you want to do?"<<endl;
